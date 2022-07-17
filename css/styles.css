@@ -88,9 +88,6 @@ p {
 }
 
 .logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   color: var(--logo-color);
 
   font-family: var(--secodary-font);
@@ -98,6 +95,10 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: var(--letter-spacing-priority);
+}
+
+.nav .logo {
+  margin-right: 93px;
 }
 
 .logo-accent-color {
