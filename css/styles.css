@@ -74,6 +74,11 @@ p {
 
 .page-header {
   border-bottom: 1px solid #ececec;
+
+  font-weight: 500;
+  font-size: var(--font-size-priority-14);
+  line-height: var(--line-height-priority);
+  letter-spacing: 0.02em;
 }
 
 .main-nav {
@@ -105,10 +110,6 @@ p {
   color: var(--accent-color);
 }
 .page-header {
-  font-weight: 500;
-  font-size: var(font-size-priority-14);
-  line-height: var(--line-height-priority);
-  letter-spacing: 0.02em;
 }
 
 .menu {
@@ -174,6 +175,8 @@ p {
 
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: #2f303a;
 }
@@ -183,6 +186,7 @@ p {
 
   color: var(--third-font-color);
 
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -252,6 +256,7 @@ p {
 
 .medium-title.doing {
   margin-bottom: 50px;
+  line-height: 1.17;
 }
 
 .doing-list {
@@ -352,6 +357,10 @@ p {
   color: var(--accent-color);
 }
 
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* ================== PORTFOLIO ================= */
 
 /* ------------ FILTER ------------ */
@@ -383,7 +392,7 @@ p {
   cursor: pointer;
 }
 
-.btn-item {
+.btn-item:not(:last-child) {
   margin-right: 6px;
 }
 
